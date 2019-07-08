@@ -15,7 +15,7 @@
         <h3 *ngIf='newGoal.name'>{{newGoal.name}}</h3>
       <div class="form-group">
 
-          <label for="description">Description</label>
+          <label for="descriisCompleteption">Description</label>
           <textarea class="form-control" id="description" rows="4"[(ngModel)]="newGoal.description" name="description" #description='ngModel' required></textarea>
           <div [hidden]="description.valid || description.pristine" class="alert alert-danger">
             <p>Description is required</p>
